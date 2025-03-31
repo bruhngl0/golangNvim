@@ -16,9 +16,11 @@ func sqrt(x float64) string {
 
 }
 
-//now lets define a function that uses declares a variable inside the if/else condtion lexical scope
-//you cant use this variable outside the scope
-//if you try to use this declared z outside the scope it will give undefined error
+/*
+now lets define a function that uses declares a variable inside the if/else condtion lexical scope
+you cant use this variable outside the scope
+if you try to use this declared z outside the scope it will give undefined error
+*/
 
 func love(x, y int) string {
 	if z := (x + y); z <= 20 {
