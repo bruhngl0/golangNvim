@@ -1,0 +1,26 @@
+TYPES OF DATA TYPES GOLANG ----
+
+1) BASIC --
+
+a)--- NUMBER, 
+b)--- STRING, 
+c)--- BOOL, etc
+
+2) AGGREGATE --
+
+a)--ARRAYS -- collection of same data types
+b)--STRUCT -- collection of multiple data types
+
+3) REFERENCE DATA TYPES -- These are called reference data types because
+they themselves do not contain the data as a container,they refer to some 
+data type in the background, and they refer to that data for  functioning.
+They dont have the data in them. they refer to another data type to access the data.
+
+
+a)--POINTERS
+b)--SLICES
+c)--FUNCTIONS 
+d)--CHANNELS
+e)--MAPS
+
+
